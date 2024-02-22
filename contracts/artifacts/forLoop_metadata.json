@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					}
+				],
+				"name": "getCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/forLoop.sol": "forLoop"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/forLoop.sol": {
+			"keccak256": "0xf9ad0d4aecda09be14ca963f8603f4dbc1287e8963cab3608b96f931cac74e84",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4e45bb1a2e0a9577a2558816ddc72650a7984884d15433e313d2b93b0b95a2c8",
+				"dweb:/ipfs/QmPiWtyGSMEvEuvCNadKtH1nJcHEEXKg8q8hfQ5g65ezeA"
+			]
+		}
+	},
+	"version": 1
+}

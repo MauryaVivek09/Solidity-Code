@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Crytography.sol": "Cr"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Crytography.sol": {
+			"keccak256": "0x73889e3564e9aa7b9b815f65e5f7b58124230233e1a772a9bfbfb2dc769e9a00",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cdd73f4874cad515119cb7e9a259fc201086f68ae529f9d7aaed9d504fceaace",
+				"dweb:/ipfs/QmRMwK9Hou3X5xeMfiNjdSJuJ6kocrEbQjDFYxgVwe2LEn"
+			]
+		}
+	},
+	"version": 1
+}

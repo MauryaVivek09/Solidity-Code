@@ -1,0 +1,97 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_sal",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_acc",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "emps",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "salary",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "acc",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setValues",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/StructDemo.sol": "StructDemo"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/StructDemo.sol": {
+			"keccak256": "0x7e281fd09f1ae37acbc917bbae4504df9ed21a2a9b717dc30904276857497bf7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://792edaa271344f2d3c915a6e95d3577a5aeff2fb3995050d83501ecf3ab18771",
+				"dweb:/ipfs/QmQ675s2xuRceJV4z1Yb9YTgRinA5srxiN6U4BFP9QTYjZ"
+			]
+		}
+	},
+	"version": 1
+}

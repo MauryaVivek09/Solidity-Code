@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "account_info",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "donation_amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "acc",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_donation",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "info",
+						"type": "address"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Mapping.sol": "MappingDemo"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Mapping.sol": {
+			"keccak256": "0x7c4146aadcb5412144fea56a70b5e413b24fd9eaa21c6451dabc83fad72f9d30",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2037867591609b8aedc49db8c1279e309da58873c49b4a1eb497f44d29d3e474",
+				"dweb:/ipfs/QmRfryUGERzehzE3FQ5XFbS5YQoHMyFo5BrTXQko9m9s3p"
+			]
+		}
+	},
+	"version": 1
+}

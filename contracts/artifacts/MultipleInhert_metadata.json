@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/MultipleInhert.sol": "MultipleInhert"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MultipleInhert.sol": {
+			"keccak256": "0x4165f2a39c3d203acc4cb788220483e9f7d6838a5ce067c1ab514d7b69a9047b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c8829e27abcb46a4d2f5a8afd8df1dfc1108f634a94c9dafcc29ef0063f09781",
+				"dweb:/ipfs/QmeBEofoY27F12bDvHsEBs4JDRTVRmkVYFo979y57hXajG"
+			]
+		}
+	},
+	"version": 1
+}

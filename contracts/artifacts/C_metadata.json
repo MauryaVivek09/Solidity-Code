@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "contract_name",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "function_name",
+						"type": "string"
+					}
+				],
+				"name": "log",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "getContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getFunction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/CallingParentFun.sol": "C"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/CallingParentFun.sol": {
+			"keccak256": "0x0f361b769c9cf9591d039b50dde1d9ee357bd4d738828ec897dee465ba757c96",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d49edf28c9af1309d8cc1f3fca38df4755ee75ee664cfb9d510a7b0488b6d0e1",
+				"dweb:/ipfs/QmX1vKqsqsVfhPgqgmWeqpK9Uk7A1Tn3Ema1wfAn6PgY6f"
+			]
+		}
+	},
+	"version": 1
+}

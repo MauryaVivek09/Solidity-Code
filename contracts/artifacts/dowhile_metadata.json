@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_marks",
+						"type": "uint256"
+					}
+				],
+				"name": "getGraceMarks",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/dowhileloop.sol": "dowhile"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/dowhileloop.sol": {
+			"keccak256": "0x2c4771f32b352d968d9cb6cd8eedd33a1029c591ade5b5718eaeb788495ec6ed",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8d109863b9a1f14ed64c4e9cd084ede0535acd599c8482ce9ea48625d55e1e18",
+				"dweb:/ipfs/QmZ4gMhH83kAok1FyQ7h8KnQ4SDJM7QCcQLEUBhKSagkgQ"
+			]
+		}
+	},
+	"version": 1
+}

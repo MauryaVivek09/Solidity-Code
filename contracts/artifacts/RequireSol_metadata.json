@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "age",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					}
+				],
+				"name": "setAge",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Require.sol": "RequireSol"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Require.sol": {
+			"keccak256": "0x1a16b1e28664f39b42526131daedc2801b207d87cc336e44c10859a280fb3b64",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d6e5f2ac8eacf31cbbde0ab933d8588df2ec397257bc677ebd885c3533232830",
+				"dweb:/ipfs/QmUPErqKqZri9QLoJC1BoVX4CWwRCf8FmEW5y9cdyVpRGB"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getByteValue",
+				"outputs": [
+					{
+						"internalType": "bytes1",
+						"name": "",
+						"type": "bytes1"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getLength",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "name2",
+				"outputs": [
+					{
+						"internalType": "bytes5",
+						"name": "",
+						"type": "bytes5"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "num",
+				"outputs": [
+					{
+						"internalType": "bytes6",
+						"name": "",
+						"type": "bytes6"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/fixedBytes.sol": "FixedSizeBytes"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/fixedBytes.sol": {
+			"keccak256": "0x95046a5f672db8158c4d708550351a3b0001023b192851a57fdcded180fa8d99",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0c3be964ec6d17dbf085cf348f6061d30bdce84acabc10e829ebc0b4c021a10b",
+				"dweb:/ipfs/QmPZmSf8SXYWiGRAAkn34PU9zztHonhq9AfteELRCNQh44"
+			]
+		}
+	},
+	"version": 1
+}

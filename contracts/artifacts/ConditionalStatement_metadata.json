@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					}
+				],
+				"name": "getNumber",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/conditionalStatement.sol": "ConditionalStatement"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/conditionalStatement.sol": {
+			"keccak256": "0x52d66f41db8c36275e70155a50d920d50d2a12597b3cac6aeaed26cfd58bd4af",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ea4ec407fa1d3058478d597254ac03205b54f0bf93d8a06cc60e2c1cd60094b7",
+				"dweb:/ipfs/QmTjd1fGsPoS6FneL6GEapknga2Hcfc92FBJsNvZF75ewv"
+			]
+		}
+	},
+	"version": 1
+}

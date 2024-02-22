@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "current_score",
+						"type": "uint256"
+					}
+				],
+				"name": "count_Boundary",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/whiledo.sol": "whileLoop"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/whiledo.sol": {
+			"keccak256": "0xe61e1a15fb80d4959ffb3d9fba5c0261c0764ecd2ca720d3cd2eec45c6a5ebc7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bdba18ac16a85b0ca6a27e8e2e961d1e1a061fc69a8d97811363f9fa1474f42d",
+				"dweb:/ipfs/QmVHSzkx3CUDj51WjtzpbzbS1QKu1uzft2Huozf1bmEJmK"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "dynamicbytes",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getLengthBytes",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "work",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/DynamicByte.sol": "DynamicBytes"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/DynamicByte.sol": {
+			"keccak256": "0xb7d9328fc69b75c5231865bb3bb50b6aee6728ebc87d01214fb2b618f2380449",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2052288e924df0dade4cd6f0e99ddff7ac66017ff150d5a2e723d25e836c02ae",
+				"dweb:/ipfs/Qmdn3ifsy9wPe8MrKagGJWEBhrsULAbUc6czM41Y8JRLSJ"
+			]
+		}
+	},
+	"version": 1
+}

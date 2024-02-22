@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "_application_name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_username",
+						"type": "string"
+					}
+				],
+				"name": "isAuth",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/AuthString.sol": "AuthString"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/AuthString.sol": {
+			"keccak256": "0x3c8ed2b7938b6d8368c50652bed10ea2fe8059caafee556d22a7660efffc5719",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://467e523a1573b798d08b17e25123a7595b1f7dcf2a5bd296db3372686358c84d",
+				"dweb:/ipfs/Qmbr3xvwqC1eyNfeDhqiUJ2hxUXAFc4rzcZUVAsKH7UVhd"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_y",
+						"type": "uint256"
+					}
+				],
+				"name": "getAge",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/gVariables.sol": "VariablesG"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/gVariables.sol": {
+			"keccak256": "0x09e539df15d49680faee2c9a23eb9d2fece6be8a6ef6629661a3a78e2dbdcdbe",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c57c739d5b5f90361b820bb8b9f5412e5161ffa3ea27f9e4df47dda78146d71b",
+				"dweb:/ipfs/QmVKKgz3PXAV75rC1JA8bCwk5QxvUsQJck7VBseiQSed9b"
+			]
+		}
+	},
+	"version": 1
+}

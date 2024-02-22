@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "age",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					}
+				],
+				"name": "setAge",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/RevertAsset.sol": "Rever"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/RevertAsset.sol": {
+			"keccak256": "0xfd7f34d5b9b109c8b69d291c1c70e410bb155a5f5b139eb2741b4e587f43e340",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3cedfc6b63c1cec6311ff74e8f8d4ddde36a8b64749af6e5eed2c37d8fb8569e",
+				"dweb:/ipfs/QmSiuSeD9asDCUaMJnNa8j7EjAiKadKggTfbLiVcYrYBsz"
+			]
+		}
+	},
+	"version": 1
+}

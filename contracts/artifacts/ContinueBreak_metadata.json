@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "notPrintFive",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/continueBreak.sol": "ContinueBreak"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/continueBreak.sol": {
+			"keccak256": "0x751d45da5cbce9f63b188f8d7848aada26e920715ba725f573eeff049c56d404",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ab664cf45b4df1b5c1dd67a39a1cf87be7266e0520be154eb1cdad8fc91f5a5d",
+				"dweb:/ipfs/QmeEdcdPhqH2s8VMfjrjt1xNy6TmziqHN8rvK76MBuCvLc"
+			]
+		}
+	},
+	"version": 1
+}
